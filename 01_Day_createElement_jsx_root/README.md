@@ -42,3 +42,6 @@ under the hood it use creatElement and JSX is better than createElement .
 
 React.createElement("h1", { className: "title" }, "Hello, Vivek!");
 
+## root 
+
+In React, the "root" is the starting point of your React app — it's where React takes control of the page and starts rendering your components.
