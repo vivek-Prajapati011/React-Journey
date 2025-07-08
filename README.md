@@ -1,24 +1,12 @@
-# 🙏 React Learning Journey
+# React + Vite
 
-Welcome to my **React Learning Journey**!  
-My daily React.js learning journey with hand on assignments , notes and mini projects . Practicing core React concept and building proof of work .
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🧠 What I'm Learning
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- JSX ,React Elements and root
+## Expanding the ESLint configuration
 
-
----
-
-## ✍️ Author
-
-- **Vivek Prajapati**
-
-- 🐙 GitHub: [@vivek-Prajapati011](https://github.com/vivek-Prajapati011)
-
-- 🐦 Twitter: [@yVivekpr83428574](https://x.com/VivekPr83428574e)
-
-- 💼 LinkedIn: [Vivek Prajapati](https://www.linkedin.com/in/vivek-prajapati-477392267/)
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
