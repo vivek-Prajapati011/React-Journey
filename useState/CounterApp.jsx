@@ -8,7 +8,10 @@ const CounterApp = () => {
     }
     
     return (
-      <button onClick={countterBtn}>ok</button>
+      <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>Count: {count}</h1>
+      <button onClick={countterBtn}>Increase</button>
+    </div>
     )
 }
 
