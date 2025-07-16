@@ -6,7 +6,10 @@ const CounterApp = () => {
     const countterBtn = () => {
         setcount(count+1)
     }
-
+    
+    return (
+      <button onClick={countterBtn}>ok</button>
+    )
 }
 
 export default CounterApp
