@@ -13,8 +13,15 @@ const Todo = () => {
    }
 
  return(
-    <div>
-  
+   <div style={{ padding: "20px" }}>
+      <h2> Todo App</h2>
+      <input
+        type="text"
+        value={task}
+        placeholder="Enter a task"
+        onChange={(e) => setTask(e.target.value)}
+      />
+      
     </div>
  )
 }
