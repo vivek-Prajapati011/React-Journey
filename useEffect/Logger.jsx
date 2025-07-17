@@ -5,6 +5,9 @@ const Logger = () => {
 
    useEffect( () =>{
     console.log("mounted")
+    return () => {
+      console.log("Component unmounted ");
+    };
 },[])
 
 return (
