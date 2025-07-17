@@ -21,7 +21,11 @@ const Todo = () => {
         placeholder="Enter a task"
         onChange={(e) => setTask(e.target.value)}
       />
-      
+      <ul>
+        {todo.map((item, index) => (
+          <li key={index}> {item}</li>
+        ))}
+      </ul>
     </div>
  )
 }
