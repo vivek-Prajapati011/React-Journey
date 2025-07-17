@@ -7,7 +7,7 @@ const Todo = () => {
 
    const addTask = () => {
       if(task.trim() !== ""){
-        setTodo([...task, todo])
+        setTodo([...todo, task])
         setTask("")
       }
    }
@@ -24,7 +24,13 @@ const Todo = () => {
       <button onClick={addTask} style={{ marginLeft: "10px" }}>
         Add Task
       </button>
-      <ul>
+      <ul style={
+        {
+          
+          listStyle: "none"
+
+        }
+        }>
         {todo.map((item, index) => (
           <li key={index}> {item}</li>
         ))}
