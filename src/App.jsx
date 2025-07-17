@@ -5,6 +5,7 @@ import CounterApp from '../useState/CounterApp';
 import Greeting from '../useState/greeting';
 import Todo from '../useState/Todo';
 import Logger from '../useEffect/Logger';
+import Timer from '../useEffect/Timer';
 
 function App() {
   
@@ -14,8 +15,10 @@ function App() {
       {/* <Todo />
       <CounterApp />
       <Greeting />
-      <h2>Welcome to my app</h2> */}
+      <h2>Welcome to my app</h2> 
       <Logger />
+      */}
+      <Timer />
     </>
   );
 }
