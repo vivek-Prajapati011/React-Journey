@@ -20,8 +20,11 @@ function App() {
       <h2>Welcome to my app</h2> 
       <Logger />
       */}
-    {/* <Timer />
-     <Loader /> */}
+    { 
+    /* <Timer />
+     <Loader />  
+     <UseInfo /> 
+     */}
     <UseInfo />
    
     </>
