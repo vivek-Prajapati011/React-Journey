@@ -29,4 +29,3 @@ const Loader = () => {
 };
 
 export default Loader;
-cd
