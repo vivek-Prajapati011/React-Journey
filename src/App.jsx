@@ -6,6 +6,7 @@ import Greeting from '../useState/greeting';
 import Todo from '../useState/Todo';
 import Logger from '../useEffect/Logger';
 import Timer from '../useEffect/Timer';
+import Loader from '../useEffect/Loader';
 
 function App() {
   
@@ -18,7 +19,8 @@ function App() {
       <h2>Welcome to my app</h2> 
       <Logger />
       */}
-      <Timer />
+    {/* <Timer /> */}
+    <Loader />
     </>
   );
 }
