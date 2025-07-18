@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const UseInfo = () => {
    const[loading, setloading] = useState("true")
    const [user, setUser] = useState([])
-   const [error, setError] = useEffect(null)
+   const [error, setError] = useState(null)
 
    const datafetch = async () => {
     try{
