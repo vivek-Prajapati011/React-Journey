@@ -8,6 +8,7 @@ import Logger from '../useEffect/Logger';
 import Timer from '../useEffect/Timer';
 import Loader from '../useEffect/Loader';
 import UseInfo from '../useEffect/UserInfo';
+import MovieManager from '../Lift-state-up/MovieManager';
 
 function App() {
   
@@ -24,8 +25,10 @@ function App() {
     /* <Timer />
      <Loader />  
      <UseInfo /> 
+     <UseInfo />
      */}
-    <UseInfo />
+     <MovieManager />
+    
    
     </>
   );
