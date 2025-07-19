@@ -13,7 +13,7 @@ const MovieManager = () => {
    return (
     <div>
       <h2> Movie Manager</h2>
-      <MovieInput onMovieChange={handleMovieChange} />
+      <Input onMovieChange={handleMovieChange} />
       <MovieDisplay movieName={moviename} />
     </div>
   )
