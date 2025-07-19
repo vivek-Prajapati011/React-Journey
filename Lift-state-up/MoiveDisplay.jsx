@@ -1,9 +1,9 @@
 import React from "react";
 
-const MovieDisplay = ({moviename}) =>{
+const MovieDisplay = ({movieName}) =>{
     return (
     <div>
-      <h3>Movie Name: {moviename}</h3>
+      <h3>Movie Name: {movieName}</h3>
     </div>
   )
 
