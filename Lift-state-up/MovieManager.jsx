@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Input from "./Input";
-
+import MovieDisplay from "./MoiveDisplay";
 
 const MovieManager = () => {
    const [moviename, setMovieName] = useState("")
