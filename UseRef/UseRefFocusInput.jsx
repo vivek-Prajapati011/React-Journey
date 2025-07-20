@@ -6,13 +6,16 @@ const UseRefFocusInput = () => {
    const handleFocus = () => {
     inputRef.current.focus()
    }
-}
 
-return (
+   return (
     <div>
         <input ref={inputRef} type="text" />
         <button onClick={handleFocus}>focus input</button>
     </div>
-)
+   )
+}
+
+
+
 
 export default UseRefFocusInput
