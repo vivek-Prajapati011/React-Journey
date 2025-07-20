@@ -9,6 +9,7 @@ import Timer from '../useEffect/Timer';
 import Loader from '../useEffect/Loader';
 import UseInfo from '../useEffect/UserInfo';
 import MovieManager from '../Lift-state-up/MovieManager';
+import UseRefFocusInput from '../UseRef/UseRefFocusInput';
 
 function App() {
   
@@ -26,8 +27,11 @@ function App() {
      <Loader />  
      <UseInfo /> 
      <UseInfo />
+      <MovieManager />
      */}
-     <MovieManager />
+
+     <UseRefFocusInput />
+    
     
    
     </>
