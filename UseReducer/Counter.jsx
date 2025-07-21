@@ -19,9 +19,10 @@ const Counter = () => {
 
   return (
      <div>
+        <h1>Count: {state.count}</h1>
         <button onClick={() => dispatch({ type: "INCREMENT" })}>INCREMENT</button> {/**calling the dispatch function with an action object */}
         <button  onClick={() => dispatch({ type: "DECREMENT" })}>DECREMENT</button>
-        <button  onClick={() => dispatch({ type: "REST" })}>REST</button>
+        <button  onClick={() => dispatch({ type: "RESET" })}>REST</button>
      </div>
   )
 
