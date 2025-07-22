@@ -10,10 +10,27 @@ const Product = () => {
 
  const [cart,setCart] = useState()
 
- const handleAddToCart = (item) => {
-  setCart([...cart, item])
+  const handleAddToCart = (product) => {
+    const existingItem = cart.find((item) => item.id === product.id);
 
- }
+    if (existingItem) {
+      setCart(
+        cart.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        )
+      );
+    } else {
+      setCart([...cart, { ...product, quantity: 1 }]);
+    }
+  };
+
+  const handleRemoveFromCart = (id) => {
+    setCart(cart.filter((item) => item.id !== id));
+  };
+
+ 
 
   return (
     <div style={{ padding: "1rem" }}>
