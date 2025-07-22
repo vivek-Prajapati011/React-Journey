@@ -11,6 +11,7 @@ import UseInfo from '../useEffect/UserInfo';
 import MovieManager from '../Lift-state-up/MovieManager';
 import UseRefFocusInput from '../UseRef/UseRefFocusInput';
 import Counter from '../UseReducer/Counter';
+import Product from '../shopping-card/Product';
 
 function App() {
   
@@ -32,6 +33,7 @@ function App() {
       <UseRefFocusInput />
      */}
      <Counter />
+     <Product />
 
      
     
