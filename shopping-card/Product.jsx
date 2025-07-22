@@ -9,14 +9,25 @@ const Product = () => {
   ]);
 
  const [cart,setCart] = useState()
- 
+
+ const handleAddToCart = (item) => {
+  setCart([...cart, item])
+
+ }
 
   return (
-    <div>
+    <div style={{ padding: "1rem" }}>
+      <h1>Products</h1>
       {product.map((item) => (
         <li key={item.id}>
-          <Card name={item.name} price={item.price} img={item.img} />
-          <button onClick={onAddToCart}></button>
+          <Card 
+             key={item.id}
+             name={item.name} 
+             price={item.price} 
+             img={item.img}
+             onAddToCart={() => handleAddToCart(item)}
+          />
+         
         </li>
       ))}
     </div>
