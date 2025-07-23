@@ -13,6 +13,7 @@ import UseRefFocusInput from '../UseRef/UseRefFocusInput';
 import Counter from '../UseReducer/Counter';
 import Product from '../shopping-card/Product';
 import BasicForm from '../form/BasicForm';
+import MultiForm from '../form/MultiForm';
 
 function App() {
   
@@ -36,6 +37,7 @@ function App() {
      <Product />
      <BasicForm />
      */}
+     <MultiForm />
      
 
      
