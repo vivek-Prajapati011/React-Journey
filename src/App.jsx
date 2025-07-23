@@ -12,6 +12,7 @@ import MovieManager from '../Lift-state-up/MovieManager';
 import UseRefFocusInput from '../UseRef/UseRefFocusInput';
 import Counter from '../UseReducer/Counter';
 import Product from '../shopping-card/Product';
+import BasicForm from '../form/BasicForm';
 
 function App() {
   
@@ -34,7 +35,7 @@ function App() {
       <Counter />
      <Product />
      */}
-     
+     <BasicForm />
 
      
     
