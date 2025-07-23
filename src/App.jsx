@@ -31,9 +31,10 @@ function App() {
      <UseInfo />
       <MovieManager />
       <UseRefFocusInput />
-     */}
-     <Counter />
+      <Counter />
      <Product />
+     */}
+     
 
      
     
