@@ -5,6 +5,7 @@ const MultiForm = () => {
     const[formData, setFormData] = useState({name:"", email:""})
     const handleSubmit = (e) => {
         e.preventDefault()
+        alert(`Submitted Name: ${formData.name}\nSubmitted Email: ${formData.email}`)
 
 
     }
