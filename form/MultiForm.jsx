@@ -12,9 +12,11 @@ const MultiForm = () => {
         <>
         <input type="text"
         value={formData.name}
+        onChange={(e)=> setFormData(e.target.value)}
         />
         <input type="email"
         value={formData.email}
+        onChange={(e)=> setFormData(e.target.value)}
         />
         <button>submit</button>
         </>
