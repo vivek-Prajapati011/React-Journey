@@ -5,6 +5,11 @@ const BasicForm = () => {
     const[email, setEmail] = useState()
     const handleSubmit = (e) => {
         e.preventDefault()
+        alert(`Submitted Name: ${email}`)
+
+
+        
+        
 
     }
 
@@ -15,7 +20,10 @@ return (
             entre your gmail
             <input 
                type="email"
+               onChange={
+                (e) => setEmail(e.target.value)
 
+               }
             />
         </label>
         <button onClick={handleSubmit}>submit</button>
