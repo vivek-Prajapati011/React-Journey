@@ -9,17 +9,30 @@ const MultiForm = () => {
 
 
     }
+    const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
     return (
         <>
-        <input type="text"
+        <form onSubmit={handleSubmit}>
+        <input 
+        type="text"
+        name="name"
         value={formData.name}
-        onChange={(e)=> setFormData(e.target.value)}
+        onChange={handleChange}
         />
-        <input type="email"
+        <input 
+        type="email"
+        name="email"
         value={formData.email}
-        onChange={(e)=> setFormData(e.target.value)}
+        onChange={handleChange}
         />
-        <button>submit</button>
+         <button type="submit">submit</button>
+        </form>
         </>
         
     )
